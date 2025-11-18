@@ -59,11 +59,11 @@ WSGI_APPLICATION = 'src.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'workxdb',
-        'USER': 'workxuser',
-        'PASSWORD': 'workxpass',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'NAME': 'postgres',
+        'USER': 'bjs_033',
+        'PASSWORD': 'postgres',
+        'HOST': '192.168.18.127',
+        'PORT': '5433',
     }
 }
 
