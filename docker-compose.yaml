@@ -7,3 +7,14 @@ services:
     build: ./backend
     ports:
       - "8000:8000"
+
+  db:
+    image: postgres:13
+    container_name: my-postgres-db
+    environment:
+      POSTGRES_USER: bjs_033
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432"  
+
