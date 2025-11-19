@@ -1,0 +1,13 @@
+
+
+# Ignore the local dependency folder, as dependencies will be installed inside the container
+node_modules
+
+# Ignore the build output folder (it's created later in the build stage)
+build
+
+# Ignore development/configuration files
+.git
+.gitignore
+.env
+.DS_Store
