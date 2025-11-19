@@ -3,6 +3,12 @@ from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Static files (CSS, JavaScript, Images)
+STATIC_URL = '/static/'
+
+# Directory where collectstatic will put files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 SECRET_KEY = '!v1!03iu+++l8m9-kyjg0*e)vj*-9)w4ot+g=jip*xexvf@#=0'
 DEBUG = True
 ALLOWED_HOSTS = ['*']
